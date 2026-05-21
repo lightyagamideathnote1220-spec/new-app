@@ -1,0 +1,6 @@
+{
+  "name": "Calendar Pro",
+  "description": "An elegant, reachability-focused calendar application with monthly planner, agenda, and customized event creator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

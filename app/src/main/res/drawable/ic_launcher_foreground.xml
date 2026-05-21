@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Shadow projection -->
+    <path
+        android:fillColor="#15000000"
+        android:pathData="M30,32h48v48h-48z" />
+
+    <!-- Pure white premium calendar plate -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,28c-4.4,0 -8,3.6 -8,8v36c0,4.4 3.6,8 8,8h48c4.4,0 8,-3.6 8,-8v-36c0,-4.4 -3.6,-8 -8,-8h-48z" />
+
+    <!-- Calendar top bar header accent (crimson pink) -->
+    <path
+        android:fillColor="#FF2D55"
+        android:pathData="M30,28h48c4.4,0 8,3.6 8,8v12h-64v-12c0,-4.4 3.6,-8 8,-8z" />
+
+    <!-- Calendar binder ring hooks -->
+    <path
+        android:fillColor="#CCCCCC"
+        android:pathData="M38,22c-1.1,0 -2,0.9 -2,2v8c0,1.1 0.9,2 2,2s2,-0.9 2,-2v-8c0,-1.1 -0.9,-2 -2,-2z" />
+    <path
+        android:fillColor="#CCCCCC"
+        android:pathData="M70,22c-1.1,0 -2,0.9 -2,2v8c0,1.1 0.9,2 2,2s2,-0.9 2,-2v-8c0,-1.1 -0.9,-2 -2,-2z" />
+
+    <!-- Monthly Grid cells -->
+    <!-- Row 1 list -->
+    <path android:fillColor="#EEEEEE" android:pathData="M34,54h6v6h-6z" />
+    <path android:fillColor="#EEEEEE" android:pathData="M44,54h6v6h-6z" />
+    <path android:fillColor="#EEEEEE" android:pathData="M54,54h6v6h-6z" />
+    <path android:fillColor="#EEEEEE" android:pathData="M64,54h6v6h-6z" />
+
+    <!-- Row 2 list (today selected highlight) -->
+    <path android:fillColor="#EEEEEE" android:pathData="M34,64h6v6h-6z" />
+    <path android:fillColor="#0058be" android:pathData="M44,64h6v6h-6z" /> <!-- Main today primary highlight -->
+    <path android:fillColor="#EEEEEE" android:pathData="M54,64h6v6h-6z" />
+    <path android:fillColor="#EEEEEE" android:pathData="M64,64h6v6h-6z" />
+</vector>
